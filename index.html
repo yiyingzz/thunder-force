@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Thunder Force Stadium</title>
+    <script src="https://kit.fontawesome.com/31c9dfb07b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Iceberg|Montserrat:400,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+
+    <div class="outer-wrapper">
+    
+        <header>
+
+            <input type="checkbox" id="menu-toggle">
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- button for mobile nav -->
+            <!-- DOES THE ARIA-LABEL GO ON THE <label> ?? SHOULD I USE visually hidden class ??????? -->
+            <label for="menu-toggle" aria-label="Click to open the menu"><i class="fas fa-bars" aria-hidden></i></label>
+
+            <h1>Thunder Force Stadium</h1>
+            <h3>Presented By Hot Cops</h3>
+
+            <ul class="social-media">
+                <li>
+                    <a href="#" aria-label="Go to Thunder Force Stadium's Instagram page"><i class="fab fa-instagram" aria-hidden></i></a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Go to Thunder Force Stadium's Facebook page"><i class="fab fa-facebook-f" aria-hidden></i></a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Go to Thunder Force Stadium's Snapchat page"><i class="fab fa-snapchat-ghost" aria-hidden></i></a>
+                </li>
+                <li>
+                    <a href="#" aria-label="Go to Thunder Force Stadium's Twitter page"><i class="fab fa-twitter" aria-hidden></i></a>
+                </li>
+            </ul>
+        
+        </header>
+    </div>
+
+    <main>
+        <div class="outer-wrapper">
+        <section>
+                
+            <div class="line-up-container clearfix">
+                <img src="./assets/right-image.jpg" alt="A man performing on stage at Thunder Force Stadium">
+                <div class="inner-wrapper">
+                    <div class="line-up">
+                        <h2>Performing Line Up</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium soluta asperiores, culpa eveniet rem sapiente facere ducimus ea, in quisquam perferendis dolores numquam harum atque? Iusto aspernatur a ratione rem.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experiences-container clearfix">
+                <img src="./assets/left-image.jpg" alt="A close up shot of a saxophone being played">
+                <div class="inner-wrapper">
+                    <div class="experiences">
+                        <h2>New Experiences</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores sequi enim omnis accusantium? Nobis earum veniam ea consequuntur laboriosam sint soluta perspiciatis provident natus delectus optio, nam culpa quaerat quae.</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+
+        <section id="tickets" class="tickets">
+            <div class="outer-wrapper">
+            <div class="inner-wrapper clearfix">
+                <img src="./assets/small-square.jpg" alt="An energetic audience enjoying a concert at Thunder Force Stadium">
+                <div class="tickets-text">
+                    <h2>Get Your Tickets</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad laborum doloremque provident veniam facere odit aspernatur. Nulla nam non, quidem nesciunt iusto quae doloremque beatae minima eveniet. Maxime ab provident sint quo placeat culpa natus possimus corporis numquam dolorem?</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="locations clearfix">
+            <ul class="icons">
+                <li class="icon">
+                    <a href="#" aria-label="Click to see our locations"><i class="fas fa-location-arrow" aria-hidden></i>
+                    <h4>Locations</h4></a>
+                </li>
+                <li class="icon">
+                    <a href="#" aria-label="Click to buy tickets"><i class="fas fa-ticket-alt" aria-hidden></i>
+                    <h4>Tickets</h4></a>
+                </li>
+                <li class="icon">
+                    <a href="#" aria-label="Click to contact us"><i class="fas fa-phone" aria-hidden></i>
+                    <h4>Reach Out</h4></a>
+                </li>
+            </ul>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="inner-wrapper clearfix">
+                <h2>The Gram</h2>
+
+                <!-- ul/li or div????? -->
+                <img src="./assets/gallery-image-1.jpg" alt="Thunder Force Stadium packed to the brim during a show">
+                <img src="./assets/gallery-image-2.jpg" alt="A band performing onstage at Thunder Force Stadium">
+                <img src="./assets/gallery-image-3.jpg" alt="A bird's eye view of a plate of chicken wings with ranch dip and a side of onions">
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="inner-wrapper">
+            <nav>
+                <ul class="clearfix">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="contact-container clearfix">
+                <div class="contact-info">
+                    <h2>Contact</h2>
+                    <p>info@email.com | 123 - 456 - 7890
+                    <span>123 Some Road, Toronto, ON</span>
+                    <span>A5A 5A5, Canada</span></p>
+                </div>
+
+                <div class="subscribe">
+                    <h2>Stay Updated</h2>
+                    <p>Subscribe to our newsletter to stay updated.</p>
+                    <form action="#" method="#">
+                        <label class="visuallyHidden" for="email">Email address</label>
+                        <input type="email" id="email" name="email" placeholder="email address">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">Copyright &copy; 2019 Juno College</p>
+    </footer>
+
+
+
+</body>
+</html>
