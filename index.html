@@ -12,9 +12,7 @@
 <body>
 
     <div class="outer-wrapper">
-    
         <header>
-
             <input type="checkbox" id="menu-toggle">
             <nav class="header-nav">
                 <ul>
@@ -26,8 +24,7 @@
             </nav>
 
             <!-- button for mobile nav -->
-            <!-- DOES THE ARIA-LABEL GO ON THE <label> ?? SHOULD I USE visually hidden class ??????? -->
-            <label for="menu-toggle" aria-label="Click to open the menu"><i class="fas fa-bars" aria-hidden></i></label>
+            <label for="menu-toggle" aria-label="Click to open the menu"><i class="fas fa-bars" aria-hidden></i></span></label>
 
             <h1>Thunder Force Stadium</h1>
             <h3>Presented By Hot Cops</h3>
@@ -48,19 +45,19 @@
             </ul>
         
         </header>
-    </div>
+    </div> 
 
     <main>
         <div class="outer-wrapper">
         <section>
                 
             <div class="line-up-container clearfix">
-                <img src="./assets/right-image.jpg" alt="A man performing on stage at Thunder Force Stadium">
+                <img src="./assets/right-image.jpg" alt="A man singing into a microphone on stage">
                 <div class="inner-wrapper">
                     <div class="line-up">
                         <h2>Performing Line Up</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium soluta asperiores, culpa eveniet rem sapiente facere ducimus ea, in quisquam perferendis dolores numquam harum atque? Iusto aspernatur a ratione rem.</p>
-                        <button>Read More</button>
+                        <a href="#"><button>Read More</button></a>
                     </div>
                 </div>
             </div>
@@ -71,7 +68,7 @@
                     <div class="experiences">
                         <h2>New Experiences</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores sequi enim omnis accusantium? Nobis earum veniam ea consequuntur laboriosam sint soluta perspiciatis provident natus delectus optio, nam culpa quaerat quae.</p>
-                        <button>Read More</button>
+                        <a href="#"><button>Read More</button></a>
                     </div>
                 </div>
             </div>
@@ -81,28 +78,28 @@
         <section id="tickets" class="tickets">
             <div class="outer-wrapper">
             <div class="inner-wrapper clearfix">
-                <img src="./assets/small-square.jpg" alt="An energetic audience enjoying a concert at Thunder Force Stadium">
+                <img src="./assets/small-square.jpg" alt="An energetic audience enjoying a concert">
                 <div class="tickets-text">
                     <h2>Get Your Tickets</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad laborum doloremque provident veniam facere odit aspernatur. Nulla nam non, quidem nesciunt iusto quae doloremque beatae minima eveniet. Maxime ab provident sint quo placeat culpa natus possimus corporis numquam dolorem?</p>
-                    <button>Read More</button>
+                    <a href="#"><button>Read More</button></a>
                 </div>
             </div>
         </div>
         </section>
 
-        <section class="locations clearfix">
-            <ul class="icons">
+        <section class="locations">
+            <ul class="icons clearfix">
                 <li class="icon">
-                    <a href="#" aria-label="Click to see our locations"><i class="fas fa-location-arrow" aria-hidden></i>
+                    <a href="#" aria-label="Click here to see our locations"><i class="fas fa-location-arrow" aria-hidden></i>
                     <h4>Locations</h4></a>
                 </li>
                 <li class="icon">
-                    <a href="#" aria-label="Click to buy tickets"><i class="fas fa-ticket-alt" aria-hidden></i>
+                    <a href="#" aria-label="Click here to buy tickets"><i class="fas fa-ticket-alt" aria-hidden></i>
                     <h4>Tickets</h4></a>
                 </li>
                 <li class="icon">
-                    <a href="#" aria-label="Click to contact us"><i class="fas fa-phone" aria-hidden></i>
+                    <a href="#" aria-label="Click here to contact us"><i class="fas fa-phone" aria-hidden></i>
                     <h4>Reach Out</h4></a>
                 </li>
             </ul>
@@ -111,15 +108,11 @@
         <section id="gallery" class="gallery">
             <div class="inner-wrapper clearfix">
                 <h2>The Gram</h2>
-
-                <!-- ul/li or div????? -->
-                <img src="./assets/gallery-image-1.jpg" alt="Thunder Force Stadium packed to the brim during a show">
-                <img src="./assets/gallery-image-2.jpg" alt="A band performing onstage at Thunder Force Stadium">
+                <img src="./assets/gallery-image-1.jpg" alt="A massive concert hall packed to the brim during a live show">
+                <img src="./assets/gallery-image-2.jpg" alt="A band performing a concert onstage">
                 <img src="./assets/gallery-image-3.jpg" alt="A bird's eye view of a plate of chicken wings with ranch dip and a side of onions">
-
             </div>
         </section>
-
     </main>
 
     <footer>
@@ -132,6 +125,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+
             <div class="contact-container clearfix">
                 <div class="contact-info">
                     <h2>Contact</h2>
@@ -150,16 +144,14 @@
                     </form>
                 </div>
             </div>
-
         </div>
+
         <div class="copyright">
             <div class="inner-wrapper">
                 <p>Copyright &copy; 2019 Juno College</p>
             </div>
         </div>
     </footer>
-
-
 
 </body>
 </html>

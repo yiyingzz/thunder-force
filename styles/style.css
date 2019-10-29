@@ -30,13 +30,11 @@ body {
     line-height: 29px;
     color: #fff;
     background: #0F0632;
-
-    /* using this to prevent side-scrolling with the slide-out nav is available */
-    overflow-x: hidden;
 }
 
+/* I'm not sure if the header should be inside or outside this outer-wrapper, I picked inside so the image doesn't end up super wide... */
 .outer-wrapper {
-    max-width: 1600px;
+    max-width: 2000px;
     width: 100%;
     margin: 0 auto;
 }
@@ -178,11 +176,11 @@ button:focus {
 }
 
 .line-up {
-    padding: 100px 50px 50px 0;
+    padding: 110px 50px 50px 0;
 }
 
 .experiences {
-    padding: 100px 0 50px 50px;
+    padding: 110px 0 50px 50px;
 }
 
 .line-up-container img,
@@ -306,16 +304,18 @@ input[type="email"] {
 
 /* RESPONSIVE */
 @media (max-width: 1320px) {
+    
     .line-up {
-        padding: 30px 30px 20px 0;
+        padding: 50px 30px 20px 0;
     }
     
     .experiences {
-        padding: 30px 0 20px 30px;
+        padding: 50px 0 20px 30px;
     }
 }
 
 @media (max-width: 1180px) {
+
     button {
         display: block;
         margin: 0 auto;
@@ -374,6 +374,7 @@ input[type="email"] {
 }
 
 @media (max-width: 940px) {
+
     header {
         height: 500px;
     }
