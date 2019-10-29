@@ -250,7 +250,7 @@ footer {
 }
 
 footer {
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 0;
 }
 
@@ -260,7 +260,7 @@ footer nav {
 }
 
 .contact-container {
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .contact-info,
@@ -353,6 +353,9 @@ input[type="email"] {
     .subscribe {
         width: 100%;
         text-align: center;
+    }
+
+    .subscribe {
         margin-top: 30px;
     }
 
@@ -467,6 +470,10 @@ input[type="email"] {
 
     footer {
         padding-top: 60px;
+    }
+
+    .contact-container {
+        margin-bottom: 60px;
     }
 }
 
