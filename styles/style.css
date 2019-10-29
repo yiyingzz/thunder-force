@@ -123,9 +123,9 @@ header i {
 }
 
 .fa-bars {
-    position: absolute;
-    top: 20px;
-    right: 20px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
     display: none;
     cursor: pointer;
     transition: 0.3s all;
@@ -495,7 +495,7 @@ input[type="checkbox"] {
 
 @media (max-width: 650px) {
 
-    .wrapper {
+    .inner-wrapper {
         width: 90%;
     }
 
@@ -538,17 +538,7 @@ input[type="checkbox"] {
 
     footer li {
         width: calc((100% - 36px) / 4);
-        font-size: calc(1.6rem - 1vw);
+        font-size: calc(1.8rem - 1vw);
         margin-right: 12px;
     }
 }
-
-/* 
-
-Qs:
-
-1. slide out nav - is it because it's an entirely separate nav, instead of just re-arranging the original one?
-(BUT I SWEAR IT WAS WORKING YESTERDAY T_T;;;)
-    - adding overflow-x: hidden; to the body seems to work????
-
-*/
